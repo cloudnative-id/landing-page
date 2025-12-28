@@ -1,0 +1,11 @@
+title: "Kubernetes Community Days & OpenInfra Days Indonesia 2022"
+date: "2022-11-26"
+time: "08:00 WIB"
+location: "Smesco Convention Hall. Sme Tower, Gedung Smeco, Jl. Gatot Subroto No.Kav. 94, RT.11/RW.3, Pancoran, Kota Jakarta Selatan."
+type: "conference" # one of: meetup, conference, webinar, workshop
+topic: "Cloud Native, Kubernetes, DevOps, Security, Observability, Etc"
+banner: "/events/20221126-conference.webp"
+description: |
+  Kubernetes Community Days Indonesia 2022 is a community-organized tech conference under Cloud Native Computing Foundation that gathers adopters and technologists from open source and cloud native communities to learn, collaborate, and network to further advancement in Kubernetes and the cloud-native ecosystem in Indonesia.
+cncfEventUrl: "https://community.cncf.io/events/details/cncf-kcd-indonesia-presents-kubernetes-community-days-amp-openinfra-days-indonesia-2022/"
+published: true

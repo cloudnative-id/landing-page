@@ -1,0 +1,12 @@
+title: "Kubernetes Cloud Native Offline Meetup June 2024"
+date: "2024-06-26"
+time: "18:00 WIB"
+location: "Lt 3 Angrek room, Sampoerna Strategic Square, Jl. Jend. Sudirman Kav. 45-46, Jakarta."
+type: "meetup" # one of: meetup, conference, webinar, workshop
+topic: "Kubernetes, Etcd and observability."
+banner: "/events/20240626-meetup.webp"
+description: |
+  Join us for an offline meetup in Jakarta! Connect with fellow cloud native enthusiasts,
+  learn from industry experts, and share your experiences.
+cncfEventUrl: "https://community.cncf.io/events/details/cncf-kubernetes-indonesia-presents-kubernetes-cloud-native-offline-meetup-june-2024/"
+published: true

@@ -1,0 +1,11 @@
+title: "Kubernetes Community Days Indonesia 2024"
+date: "2024-10-30"
+time: "08:00 WIB"
+location: "Universitas Nasional, No.61 Jalan Sawo Manila, Kota Jakarta Selatan, 12520."
+type: "conference" # one of: meetup, conference, webinar, workshop
+topic: "Cloud Native, Kubernetes, DevOps, Security, Observability, AI, Etc"
+banner: "/events/20241130-conference.webp"
+description: |
+  Kubernetes Community Days Indonesia 2024 is a community-organized tech conference under Cloud Native Computing Foundation that gathers adopters and technologists from open source and cloud native communities to learn, collaborate, and network to further advancement in Kubernetes and the cloud-native ecosystem in Indonesia.
+cncfEventUrl: "https://community.cncf.io/events/details/cncf-kcd-indonesia-presents-kcd-indonesia-2024/"
+published: true

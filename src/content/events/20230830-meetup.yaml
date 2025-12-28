@@ -1,0 +1,12 @@
+title: "Kubernetes Cloud Native Meetup August 2023 x Goto Impact Foudation X Generation Girl"
+date: "2023-08-30"
+time: "18:00 WIB"
+location: "Gojek Office, No.7 Jalan Iskandarsyah II, Kota Jakarta Selatan"
+type: "meetup" # one of: meetup, conference, webinar, workshop
+topic: "Kubernetes Development"
+banner: "/events/20230830-meetup.webp"
+description: |
+  Join us for an offline meetup! Connect with fellow cloud native enthusiasts,
+  learn from industry experts, and share your experiences.
+cncfEventUrl: "https://community.cncf.io/events/details/cncf-indonesia-presents-kubernetes-cloud-native-meetup-august-2023-x-goto-impact-foudation-x-generation-girl/"
+published: true

@@ -1,0 +1,12 @@
+title: "Kubernetes Cloud Native Offline Meetup October 2024 with DTc & AKAMAI"
+date: "2024-10-03"
+time: "18:00 WIB"
+location: "Gowork Senayan City. Panin Tower, 15th Floor, Senayan City, Jl. Asia Afrika No.Lot. 19, Kota Jakarta Pusat"
+type: "meetup" # one of: meetup, conference, webinar, workshop
+topic: "Gitops Automation FluxCD"
+banner: "/events/20241003-meetup.webp"
+description: |
+  Join us for an offline meetup in Jakarta! Connect with fellow cloud native enthusiasts,
+  learn from industry experts, and share your experiences.
+cncfEventUrl: "https://community.cncf.io/events/details/cncf-kubernetes-indonesia-presents-kubernetes-cloud-native-offline-meetup-october-2024-with-dtc-amp-akamai/"
+published: true
