@@ -116,9 +116,11 @@ const { sectionId, showTimeFilter = false } = Astro.props;
         const matchesTime = selectedTime === 'all' || timeStatus === selectedTime;
 
         if (matchesSearch && matchesType && matchesLocation && matchesTime) {
-          card.style.display = 'block';
+          card.classList.remove('hidden');
+          card.style.display = '';
           visibleCount++;
         } else {
+          card.classList.add('hidden');
           card.style.display = 'none';
         }
       });
@@ -127,11 +129,34 @@ const { sectionId, showTimeFilter = false } = Astro.props;
       
       // Show/hide no results message
       if (visibleCount === 0) {
-        noResults.style.display = 'block';
-        eventsGrid.style.display = 'none';
+        noResults.classList.remove('hidden');
+        eventsGrid.style.visibility = 'hidden';
       } else {
-        noResults.style.display = 'none';
-        eventsGrid.style.display = 'grid';
+        noResults.classList.add('hidden');
+        eventsGrid.style.visibility = 'visible';
+      }
+
+      // Trigger Masonry re-layout if it exists
+      if (typeof window.masonryInstance !== 'undefined' && window.masonryInstance) {
+        // Destroy and re-init Masonry to recalculate with new visible items
+        setTimeout(() => {
+          const grid = document.getElementById('events-grid-all');
+          if (grid && typeof Masonry !== 'undefined') {
+            window.masonryInstance.destroy();
+            
+            const firstVisibleItem = grid.querySelector('.masonry-item:not(.hidden)');
+            if (firstVisibleItem) {
+              window.masonryInstance = new Masonry(grid, {
+                itemSelector: '.masonry-item:not(.hidden)',
+                columnWidth: firstVisibleItem,
+                percentPosition: true,
+                gutter: 32,
+                horizontalOrder: false,
+                transitionDuration: '0.3s'
+              });
+            }
+          }
+        }, 50);
       }
     }
 

@@ -281,15 +281,23 @@ const sortedCommunity = community.sort((a, b) => a.data.order - b.data.order);
       masonryInstance.destroy();
     }
 
+    // Get first visible item for columnWidth calculation
+    const firstVisibleItem = grid.querySelector('.masonry-item:not(.hidden)');
+    if (!firstVisibleItem) return;
+
     // @ts-ignore - Masonry is loaded from CDN
     masonryInstance = new Masonry(grid, {
-      itemSelector: '.masonry-item',
-      columnWidth: '.masonry-item',
+      itemSelector: '.masonry-item:not(.hidden)', // Only count visible items
+      columnWidth: firstVisibleItem, // Use first visible item
       percentPosition: true,
       gutter: 32, // 2rem (8 * 4 = 32px in Tailwind)
       horizontalOrder: false,
       transitionDuration: '0.3s'
     });
+
+    // Expose to window for filter to use
+    // @ts-ignore
+    window.masonryInstance = masonryInstance;
   }
 
   // Initialize on page load
@@ -299,26 +307,6 @@ const sortedCommunity = community.sort((a, b) => a.data.order - b.data.order);
     });
   } else {
     setTimeout(initMasonry, 100);
-  }
-
-  // Re-initialize after filter changes
-  const filterObserver = new MutationObserver(() => {
-    if (masonryInstance) {
-      setTimeout(() => {
-        masonryInstance.layout();
-      }, 100);
-    }
-  });
-
-  // Observe the grid for changes (when filter is applied)
-  const grid = document.getElementById('events-grid-all');
-  if (grid) {
-    filterObserver.observe(grid, {
-      childList: true,
-      subtree: true,
-      attributes: true,
-      attributeFilter: ['class', 'style']
-    });
   }
 
   // Re-layout on window resize
