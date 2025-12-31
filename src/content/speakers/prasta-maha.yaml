@@ -1,0 +1,27 @@
+name: "Prasta Maha"
+title: "Devops Engineer"
+company: "Krom Bank Indonesia"
+bio: |
+  Prasta is passionate about tech, especially Linux, Cloud Computing,
+  DevOps, Data Engineering, Security, and Programming.
+  He also shares his tech experiences and insights on https://medium.com/prastamaha
+avatar: "/people/prasta-maha.webp"
+topic:
+  - "Kubernetes"
+  - "ArgoCD"
+  - "Gitops"
+  - "Microservice"
+linkedin: "https://www.linkedin.com/in/prastamaha"
+twitter: "prastamh"
+website: "https://prastamaha.com"
+talks:
+  - title: "Effortless Microservice Development & Debugging on Kubernetes With Mirrord"
+    event: "Kubernetes Community Days Indonesia 2024"
+    date: "2024-11-30"
+    description: "Learn how to streamline microservice development and debugging on Kubernetes using Mirrord, enhancing productivity and reducing complexity."
+    slidesUrl: "https://docs.google.com/presentation/d/15q3NmnNusPuVGQ-9Y0uGa79F3G5bVKJMNyVO4BGB4-o/edit?usp=sharing"
+  - title: "Manage argocd gitops easier with helm"
+    event: "Kubernetes Cloud Native Offline Meetup August 2022"
+    date: "2022-08-31"
+    description: "How to manage ArgoCD GitOps applications using Helm chart to simplify deployment and management."
+    slidesUrl: "https://docs.google.com/presentation/d/1LrbDR7ApDUMJaPynnkiLA9pPVhpO01q2ggCmorf42Fk/edit?usp=sharing"

@@ -1,0 +1,16 @@
+name: "Irwan Shofwan"
+title: "Cloud Platform Engineer"
+company: "Goto Financial"
+bio: |
+  I love so much stuff like data, ai, cloud etc. Sometimes I play capture the flag for fun.
+avatar: "/people/irwan-shofwan.webp"
+topic:
+  - "Distributed System"
+  - "Etcd"
+linkedin: "https://www.linkedin.com/in/irwanshofwan"
+talks:
+  - title: "Etcd and it's super power"
+    event: "Kubernetes Cloud Native Offline Meetup June 2024" 
+    date: "2024-06-26"
+    description: "Discover the superpowers of etcd, the distributed key-value store that powers Kubernetes, and learn how it ensures data consistency and reliability in cloud-native environments."
+    slidesUrl: "https://www.slideshare.net/slideshow/kubernetes-cloud-native-indonesia-meetup-june-2024/269914566"

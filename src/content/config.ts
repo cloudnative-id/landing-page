@@ -71,10 +71,36 @@ const faqCollection = defineCollection({
   }),
 });
 
+const speakersCollection = defineCollection({
+  type: 'data',
+  schema: z.object({
+    name: z.string(),
+    title: z.string(), // Job title
+    company: z.string().optional(),
+    bio: z.string(),
+    avatar: z.string().optional(),
+    topic: z.array(z.string()), // e.g., ["Kubernetes", "DevOps", "Cloud Native"]
+    github: z.string().optional(),
+    twitter: z.string().optional(),
+    linkedin: z.string().optional(),
+    website: z.string().url().optional(),
+    talks: z.array(z.object({
+      title: z.string(),
+      event: z.string(),
+      date: z.string(),
+      description: z.string().optional(),
+      slidesUrl: z.string().url().optional(),
+      videoUrl: z.string().url().optional(),
+    })).default([]),
+    order: z.number().default(999),
+  }),
+});
+
 export const collections = {
   events: eventsCollection,
   team: teamCollection,
   sponsors: sponsorsCollection,
   community: communityCollection,
   faq: faqCollection,
+  speakers: speakersCollection,
 };

@@ -1,0 +1,16 @@
+name: "Kevin Rasheesa"
+title: "Site Reliability Engineering Manager"
+company: "AccelByte"
+bio: |
+  Passionate SRE/DevOps engineer with a focus on automation, reliability, and developer productivity. Experienced in CI/CD, containerization, cloud infrastructure, and release management. Skilled in building internal DevOps and CI/CD platforms using Golang and TypeScript, with growing interest in full-stack development to enhance platform capabilities. Effective as both an individual contributor and people manager.
+avatar: "/people/kevin-rasheesa.webp"
+topic:
+  - "Kubernetes"
+  - "CI/CD"
+linkedin: "https://www.linkedin.com/in/kevin-rasheesa/"
+talks:
+  - title: "Optimize Gitlab Runner Cost Using Kubernetes Executor + Karpenter"
+    event: "Kubernetes Cloud Native Offline Meetup August 2025" 
+    date: "2025-05-27"
+    description: "Explore how to optimize GitLab Runner costs using Kubernetes Executor and Karpenter for dynamic resource provisioning."
+    slidesUrl: "https://www.slideshare.net/slideshow/kubernetes-cloud-native-indonesia-meetup-may-2025/279778260"
