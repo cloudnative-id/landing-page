@@ -8,7 +8,10 @@ const faqCategories = await getCollection('faq');
 const sortedCategories = faqCategories.sort((a, b) => a.data.order - b.data.order);
 ---
 
-<Layout title="FAQ - Kubernetes Cloud Native Indonesia">
+<Layout 
+  title="FAQ" 
+  description="Frequently asked questions about Kubernetes Cloud Native Indonesia community - membership, meetups, conferences, and how to get involved."
+>
   <Navbar />
   
   <!-- Hero Section -->
