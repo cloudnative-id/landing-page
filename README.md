@@ -113,6 +113,44 @@ link: "https://discord.gg/your-invite"
 order: 3
 ```
 
+### Add FAQ
+
+```yaml
+#community.yaml
+category: "Community & Membership"
+order: 1
+questions:
+  - question: "Does Kubernetes Cloud Native Indonesia have a basecamp?"
+    answer: |
+      No, our committee come from various cities in Indonesia. However, we usually hold regular meetings both online and offline.
+    order: 1
+```
+
+### Add Speaker
+
+```yaml
+name: "John Doe"
+title: "Devops Engineer"
+company: "Awesome Company"
+bio: |
+  John Doe bio
+avatar: "/people/john-doe.webp"
+topic:
+  - "Kubernetes"
+  - "CI/CD"
+linkedin: "https://www.linkedin.com/in/johndoe"
+github: "johndoe"
+twitter: "johndoe"
+talks:
+  - title: "Building Production-Ready Kubernetes Clusters"
+    event: "Kubernetes Cloud Native Offline Meetup August 2025"
+    date: "2025-08-21"
+    description: "Best practices and lessons learned from running Kubernetes in production at scale"
+    slidesUrl: "https://www.slideshare.net/slideshow/links"
+order: 1
+
+```
+
 ## 📧 Contact
 
 - **Website**: [cloudnative.id](https://cloudnative.id)

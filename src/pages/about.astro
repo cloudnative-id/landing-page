@@ -9,7 +9,10 @@ const sortedOrganizers = team.sort((a, b) => a.data.order - b.data.order).filter
 const sortedEmeritus = team.sort((a, b) => a.data.order - b.data.order).filter(member => member.data.emeritus === true);
 ---
 
-<Layout title="About Us - Kubernetes Cloud Native Indonesia">
+<Layout 
+  title="About Us" 
+  description="Learn about Kubernetes Cloud Native Indonesia, our mission to build Indonesia's most active cloud native community, and meet our organizers and contributors."
+>
   <Navbar />
   
   <!-- Hero Section -->

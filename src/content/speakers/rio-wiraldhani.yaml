@@ -1,0 +1,17 @@
+name: "Rio Wiraldhani"
+title: "Senior Devops Engineer"
+company: "Durianpay"
+bio: |
+  Big fan of sleep. Every now and then I accidentally break the environment, and sometimes I accidentally fix it without really knowing how. 
+  When I’m feeling awake enough without even needing coffee and discover something cool, I write about it on my Medium.
+avatar: "/people/rio-wiraldhani.webp"
+topic:
+  - "Keycloak"
+  - "Authentication"
+linkedin: "https://www.linkedin.com/in/riowiraldhani"
+talks:
+  - title: "Auth That Works: Building Seamless Login Experiences for Internal Tools with Keycloak"
+    event: "Kubernetes Cloud Native Offline Meetup August 2025" 
+    date: "2025-05-27"
+    description: "Explore how to implement Keycloak for authentication in internal tools, enhancing security and user experience."
+    slidesUrl: "https://www.slideshare.net/slideshow/kubernetes-cloud-native-indonesia-meetup-may-2025/279778260"

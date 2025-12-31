@@ -1,0 +1,16 @@
+name: "Ikhsan Putra"
+title: "Data Engineer"
+company: "Meridia"
+bio: |
+  Ikhsan is specialize in cloud-native and open-source technologies, along with a keen interest in data analytics and machine learning. 
+  He's also enjoy sharing my knowledge through speaking engagements on cloud technologies in local community groups.
+avatar: "/people/ikhsan-putra.webp"
+topic:
+  - "Data Engineering"
+  - "Minio"
+linkedin: "https://www.linkedin.com/in/ikhsanputra"
+talks:
+  - title: "Is MinIO Just About Storing Data? No, It’s Unlocking the Power of Analytics"
+    event: "Kubernetes Cloud Native Offline Meetup August 2025"
+    date: "2025-08-21"
+    description: "Discover how MinIO goes beyond data storage to empower analytics and drive insights in modern data architectures."

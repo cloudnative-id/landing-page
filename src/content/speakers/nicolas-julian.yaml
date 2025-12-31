@@ -1,0 +1,23 @@
+name: "Nicolas Julian"
+title: "Devops Engineer"
+company: "Jubelio"
+bio: |
+  As a cloud-agnostic DevSecOps professional, I blend security seamlessly into various IT infrastructures, ensuring robust and efficient solutions across clouds. 
+
+  My expertise in Docker and Kubernetes aids in creating resource-optimized, cost-effective setups. Skilled in tackling complex issues in Kubernetes, in any cloud including on-premise systems, I handle operational challenges with ease. My daily routine involves enhancing DevOps workflows with a focus on automation, operational efficiency, and cost optimization.
+
+  In my free time, I enjoy exploring, Web Penetration Testing, and Automation. I engage in Bug Bounty hunting for fun and practice DevSecOps daily, ensuring seamless and secure tech operations.
+  
+  Checkout my blogs for more about me at nicolas.my.id
+
+avatar: "/people/nicolas-julian.webp"
+topic:
+  - "Kubernetes"
+  - "Pixie"
+linkedin: "https://www.linkedin.com/in/nicolasjulian/"
+talks:
+  - title: "Observer Performance Your Kubernetes Cluster"
+    event: "Kubernetes Cloud Native Offline Meetup June 2024" 
+    date: "2024-06-26"
+    description: "Learn how to monitor and optimize the performance of your Kubernetes clusters using pixie"
+    slidesUrl: "https://www.slideshare.net/slideshow/kubernetes-cloud-native-indonesia-meetup-june-2024/269914566"

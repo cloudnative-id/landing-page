@@ -2,24 +2,98 @@
 interface Props {
   title: string;
   description?: string;
+  image?: string;
+  type?: 'website' | 'article';
+  canonicalURL?: string;
 }
 
-const { title, description = "Kubernetes Cloud Native Indonesia - Building cloud native community in Indonesia" } = Astro.props;
+const { 
+  title, 
+  description = "Kubernetes Cloud Native Indonesia - Building cloud native community in Indonesia",
+  image = "/hero.webp",
+  type = "website",
+  canonicalURL = new URL(Astro.url.pathname, Astro.site).href
+} = Astro.props;
+
 import '../styles/global.css';
+
+// Site configuration
+const siteName = "Kubernetes Cloud Native Indonesia";
+const siteURL = Astro.site;
+const fullTitle = title.includes(siteName) ? title : `${title} | ${siteName}`;
+const imageURL = new URL(image, siteURL).href;
 ---
 
 <!doctype html>
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content={description} />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>{fullTitle}</title>
+    <meta name="title" content={fullTitle} />
+    <meta name="description" content={description} />
+    <meta name="keywords" content="Kubernetes, Cloud Native, Indonesia, CNCF, Docker, DevOps, Containers, Microservices, Community" />
+    <meta name="author" content="Kubernetes Cloud Native Indonesia" />
+    <link rel="canonical" href={canonicalURL} />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={imageURL} />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:locale" content="id_ID" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={canonicalURL} />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={imageURL} />
+    <meta name="twitter:site" content="@cloudnativeid" />
+    <meta name="twitter:creator" content="@cloudnativeid" />
+    
+    <!-- Additional SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="language" content="Indonesian" />
+    <meta name="revisit-after" content="7 days" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#2563eb" />
     
     <!-- Masonry Library for Pinterest-style layout -->
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    
+    <!-- JSON-LD Schema for Organization -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": siteName,
+      "url": siteURL,
+      "logo": new URL("/cncf-indonesia-logo.webp", siteURL).href,
+      "description": description,
+      "sameAs": [
+        "https://facebook.com/cloudnativeid",
+        "https://twitter.com/cloudnativeid",
+        "https://instagram.com/cloudnativeid",
+        "https://linkedin.com/company/cloudnativeid",
+        "https://youtube.com/@cloudnativeid",
+        "https://t.me/cloudnativeid"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@cloudnative.id",
+        "contactType": "customer service"
+      }
+    })} />
   </head>
   <body class="bg-gray-50">
     <slot />
