@@ -1,0 +1,15 @@
+name: "Samir H."
+title: "Senior Product Support Engineer"
+company: "Upcloud"
+bio: |
+  With over 12 years of experience in technical support and infrastructure management across cloud computing, networking, and application services. I've built a diverse career spanning the UK, Indonesia, and Singapore, with customers ranging from individual developers to enterprise organisations.
+avatar: "/people/samir-h.webp"
+topic:
+  - "Kubernetes"
+linkedin: "https://www.linkedin.com/in/samhaliru"
+talks:
+  - title: "Upcloud - How we built our Managed Kubernetes Service"
+    event: "Kubernetes Cloud Native Offline Meetup June 2024" 
+    date: "2024-06-26"
+    description: "Discover how Upcloud built their Managed Kubernetes Service."
+    slidesUrl: "https://www.slideshare.net/slideshow/kubernetes-cloud-native-indonesia-meetup-june-2024/269914566"

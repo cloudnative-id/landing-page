@@ -1,0 +1,14 @@
+name: "Bandung Prihanto"
+title: "Senior Architect"
+company: "Banking Industry"
+bio: |
+  Involve more than 10 years of experience for various IT Industries in Indonesia starting his career from the ground as technical writer, project documentation, project engineer, project manager associate, and shifted his specialization in IT Infrastructure and Virtualization.
+avatar: "/people/bandung-prihanto.webp"
+topic:
+  - "Minio"
+linkedin: "https://www.linkedin.com/in/bandung-p-20852268"
+talks:
+  - title: "Usecase MinIO Banking Industry"
+    event: "Kubernetes Cloud Native Offline Meetup August 2025"
+    date: "2025-08-21"
+    description: "Discover usecase MinIO in Banking Industry to empower analytics and drive insights in modern data architectures."

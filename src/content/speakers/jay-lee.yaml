@@ -1,0 +1,16 @@
+name: "Jay Lee"
+title: "Application Innoivation Specialist"
+company: "Microsoft"
+bio: |
+  At Microsoft, I partner with enterprises to design and deliver next‑generation AI applications and intelligent agents, while driving DevOps adoption on modern container platforms in the cloud. Leveraging deep expertise in Java, Spring Framework, and enterprise middleware, I help organizations modernize applications and integrate AI capabilities with GitHub Copilot. Previously at Pivotal, I partnered with Fortune 500 companies to build cloud‑native microservices, empowering effective software development that delivers Speed, Stability, Scalability, Security, and Savings.
+avatar: "/people/jay-lee.webp"
+topic:
+  - "Kubernetes"
+  - "AKS"
+linkedin: "https://www.linkedin.com/in/cloudnativejay/"
+talks:
+  - title: "Developing Java apps on Azure Kubernetes Service"
+    event: "Kubernetes Cloud Native Online Meetup December 2021"
+    date: "2021-12-16"
+    description: "Explore best practices for developing and deploying Java applications on Azure Kubernetes Service (AKS), including integration with Azure DevOps and GitHub Copilot for enhanced productivity."
+    videoUrl: "https://www.youtube.com/watch?v=VAbJwevd2n8"

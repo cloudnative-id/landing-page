@@ -1,0 +1,14 @@
+name: "Stephen Salim"
+title: "Geo Solutions Architect"
+company: "Amazon Web Services"
+bio: "Geo Solutions Architect @ Amazon Web Services"
+avatar: "/people/stephen-salim.webp"
+topic:
+  - "Development"
+linkedin: "https://www.linkedin.com/in/stepsalim/"
+talks:
+  - title: "Well Architected Framework for Modern Application"
+    event: "Kubernetes Cloud Native Online Meetup July 2021"
+    date: "2021-07-29"
+    description: "Learn how to design and build modern applications using the Well-Architected Framework to ensure reliability, security, and performance."
+    videoUrl: "https://www.youtube.com/watch?v=sm19yELi-ck"

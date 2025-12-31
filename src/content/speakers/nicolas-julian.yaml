@@ -21,3 +21,8 @@ talks:
     date: "2024-06-26"
     description: "Learn how to monitor and optimize the performance of your Kubernetes clusters using pixie"
     slidesUrl: "https://www.slideshare.net/slideshow/kubernetes-cloud-native-indonesia-meetup-june-2024/269914566"
+  - title: "Management confidential data with Vault and ArgoCD"
+    event: "Kubernetes Cloud Native Indonesia Offline Meetup February 2023 X BukaMeetup" 
+    date: "2023-02-16"
+    description: "Avoid putting confidential data naked on your repository by using Vault and ArgoCD to manage and deploy your secret data securely"
+    slidesUrl: "https://www.slideshare.net/slideshow/kubernetes-cloud-native-indonesia-x-bukameetup-feb-2023/255895110"

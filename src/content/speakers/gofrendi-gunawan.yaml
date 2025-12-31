@@ -1,0 +1,14 @@
+name: "Gofrendi Gunawan"
+title: "Associate Principal Engineer"
+company: "Bank Sinarmas"
+bio: "Associate Principal Engineer @ Bank Sinarmas"
+avatar: "/people/gofrendi-gunawan.webp"
+topic:
+  - "Kubernetes"
+  - "Istio"
+linkedin: "https://www.linkedin.com/in/go-frendi-gunawan-734819115/"
+talks:
+  - title: "Book Review: Kubernetes Pattern"
+    event: "Kubernetes Cloud Native Online Meetup April 2022"
+    date: "2022-04-28"
+    description: "A comprehensive review of the book 'Kubernetes Patterns' covering key concepts and design patterns for building cloud-native applications on Kubernetes."

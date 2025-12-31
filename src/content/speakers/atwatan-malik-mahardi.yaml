@@ -1,0 +1,16 @@
+name: "Atwatan Malik Mahardi"
+title: "Cloud Engineer"
+company: "Boer Technology"
+bio: |
+  FLOSS enthusiast
+avatar: "/people/atwatan-malik-mahardi.webp"
+topic:
+  - "Kubernetes"
+  - "OPA Gatekeeper"
+linkedin: "https://www.linkedin.com/in/atwatanmalikm/"
+talks:
+  - title: "Minimize Kubernetes Vulnerability using OPA Gatekeeper"
+    event: "Kubernetes Cloud Native Online Meetup July 2021"
+    date: "2021-07-29"
+    description: "Explore the potential of OPA Gatekeeper in enhancing security within Kubernetes environments."
+    videoUrl: "https://www.youtube.com/watch?v=sm19yELi-ck"

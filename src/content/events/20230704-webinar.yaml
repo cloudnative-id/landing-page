@@ -1,0 +1,11 @@
+title: "Kubernetes Cloud Native Online Meetup July 2023 x VIDA Digital Identity"
+date: "2023-07-04"
+time: "18:00 WIB"
+location: "Online Event (Virtual)"
+type: "webinar" # one of: meetup, conference, webinar, workshop
+topic: "Kubecost, Istio, VM to Containers Migration"
+description: |
+  Join us for an online meetup! Connect with fellow cloud native enthusiasts,
+  learn from industry experts, and share your experiences.
+cncfEventUrl: "https://community.cncf.io/events/details/cncf-indonesia-presents-kubernetes-cloud-native-online-meetup-july-2023-x-vida-digital-identity/"
+published: true

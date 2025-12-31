@@ -1,0 +1,14 @@
+name: "Himalaya Gupta"
+title: "Principal Engineer"
+company: "Vida Digital Identity"
+bio: |
+  With over a decade of experience, I specialize in envisioning, building, and delivering exceptional user experiences with agile teams of engineers and designers. I excel in creating products from scratch and continuously improving them without disrupting the customer experience. I thrive in taking projects from 0 to 1 and leading high-performing teams, blending strong business acumen with a keen sense of design thinking. Outside of work, I'm passionate about traveling, exploring different cultures, and enjoying diverse cuisines.
+avatar: "/people/himalaya-gupta.webp"
+topic:
+  - "Kubernetes"
+linkedin: "https://www.linkedin.com/in/himalayagupta-in"
+talks:
+  - title: "Transitioning from VM Environment to Containers"
+    event: "Kubernetes Cloud Native Online Meetup July 2023 x VIDA Digital Identity"
+    date: "2024-07-04"
+    description: "Discover the journey and best practices for transitioning from traditional VM environments to containerized applications using Kubernetes."

@@ -1,0 +1,15 @@
+name: "Dewangga Alam"
+title: "Engineering Manager"
+company: "Bukalapak"
+bio: |
+  More than 15+ years as an Engineer in any industry fields (startup to enterprises). And actively in some open source organization as Speakers, Contributors and Testers. Currently working as Engineering Manager at Bukalapak focusing on Cloud Native, Kubernetes, DevOps, and SRE practices.
+avatar: "/people/dewangga-alam.webp"
+topic:
+  - "Kubernetes"
+linkedin: "https://www.linkedin.com/in/dewangga/"
+talks:
+  - title: "Kubernetes Component Election"
+    event: "Kubernetes Cloud Native Indonesia Offline Meetup February 2023 X BukaMeetup" 
+    date: "2023-02-16"
+    description: "How Bukalapak choose the rights technology (including it's component) for our needs? This talk will show comparison matrix, the challenges and the expected goals how to achieve specific results."
+    slidesUrl: "https://www.slideshare.net/slideshow/kubernetes-cloud-native-indonesia-x-bukameetup-feb-2023/255895110"

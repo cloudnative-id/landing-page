@@ -1,0 +1,15 @@
+name: "Muhammad Luthfi"
+title: "SRE/Devops Engineer"
+company: "Amdocs"
+bio: |
+  Cloud & DevOps Engineer with 5+ years of experience designing, automating, and optimizing large-scale infrastructure for Telecom & Enterprise environments, strong skilled on automation, deployments, observability, containerization & more
+avatar: "/people/muhammad-luthfi.webp"
+topic:
+  - "Kubernetes"
+  - "eBPF"
+linkedin: "https://www.linkedin.com/in/muhammadluthfias"
+talks:
+  - title: "The Power of eBPF for Kubernetes"
+    event: "Kubernetes Cloud Native Online Meetup March 2024"
+    date: "2024-03-28"
+    description: "Explore the potential of eBPF in enhancing Kubernetes observability and performance."

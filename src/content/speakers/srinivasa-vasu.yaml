@@ -1,0 +1,15 @@
+name: "Srinivasa Vasu"
+title: "Field Solution Engineer"
+company: "Yugabyte"
+bio: |
+  An open-source technology enthusiast and contributor started with a little interest in coding, but gradually fascinated by the `write once run anywhere` paradigm of Java and of late got completely hooked into `build once multiple deploys` containerization, microservices and beyond. I had the opportunity of working with some of the global customers across various industry domains like Life science, Banking, Insurance, and Airlines helping them transform the way they build software.
+avatar: "/people/srinivasa-vasu.webp"
+topic:
+  - "Kubernetes"
+linkedin: "https://www.linkedin.com/in/srinivasa-vasu/"
+talks:
+  - title: "Distibuted Service on Kubernetes - is it a boon or curse"
+    event: "Kubernetes Cloud Native Online Meetup Februari 2022"
+    date: "2022-02-24"
+    description: "Explore the challenges and benefits of deploying distributed services on Kubernetes, and how to effectively manage them for optimal performance and reliability."
+    videoUrl: "https://www.youtube.com/watch?v=WJAAD1jX5hY"

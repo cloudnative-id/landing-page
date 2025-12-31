@@ -1,0 +1,11 @@
+title: "Kubernetes Cloud Native Offline Meetup August 2022"
+date: "2022-08-31"
+time: "18:00 WIB"
+location: "Cookpad Indonesia. Menteng Square BR18-19 Tower B, Jl. Matraman Raya No.30E, RT.5/RW.6, Kenari, Kec. Senen, Kota Jakarta Pusat"
+type: "meetup" # one of: meetup, conference, webinar, workshop
+topic: "Kubernetes, ArgoCD"
+description: |
+  Join us for an offline meetup! Connect with fellow cloud native enthusiasts,
+  learn from industry experts, and share your experiences.
+cncfEventUrl: "https://community.cncf.io/events/details/cncf-indonesia-presents-kubernetes-cloud-native-offline-meetup-august-2022"
+published: true

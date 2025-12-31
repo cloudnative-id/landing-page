@@ -1,0 +1,11 @@
+title: "Kubernetes Cloud Native Jakarta Meetup March 2023"
+date: "2023-03-13"
+time: "18:00 WIB"
+location: "GoLearn Gojek Pasaraya Blok M Gedung B Lt. 6, Jl. Iskandarsyah II No.7, RT.3/RW.1, Melawai, Kec. Kby. Baru, Kota Jakarta Selatan."
+type: "meetup" # one of: meetup, conference, webinar, workshop
+topic: "Cilium, Metallb, Tech Mentoring"
+description: |
+  Join us for an offline meetup! Connect with fellow cloud native enthusiasts,
+  learn from industry experts, and share your experiences.
+cncfEventUrl: "https://community.cncf.io/events/details/cncf-indonesia-presents-kubernetes-cloud-native-jakarta-meetup-march-2023/"
+published: true
