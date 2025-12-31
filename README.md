@@ -4,7 +4,7 @@
 
 Official landing page for the Kubernetes Cloud Native Indonesia community.
 
-🌐 **Live Site**: [cncf-id.org](https://cncf-id.org)
+🌐 **Live Site**: [cloudnative.id](https://cloudnative.id)
 
 ## ✨ Features
 
@@ -115,7 +115,7 @@ order: 3
 
 ## 📧 Contact
 
-- **Website**: [cncf-id.org](https://cncf-id.org)
+- **Website**: [cloudnative.id](https://cloudnative.id)
 - **CNCF Community**: [community.cncf.io/kubernetes-indonesia](https://community.cncf.io/kubernetes-indonesia/)
 - **Telegram**: [t.me/kubernetesindonesia](https://t.me/kubernetesindonesia)
 
