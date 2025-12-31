@@ -1,0 +1,15 @@
+name: "Aldin Setiawan"
+title: "Infrastructure Engineer"
+company: "Vault Cloud"
+bio: |
+  A multi-skilled Cloud Engineer with in-depth knowledge of architecting, installing and configuring IT infrastructure. Experienced with providing client focused IT support and successfully analyzing and resolving IT hardware and software problems in a timely and accurate fashion. Having the ability to maintain a high degree of customer service for all support queries and possessing strong analytical and documentation skills along with an ability to actively contribute to the development of best practice, procedures and policies within a company. Currently looking for a suitable IT position with a ambitious company or organization that offers room for progression.
+avatar: "/people/aldin-setiawan.webp"
+topic:
+  - "Kubernetes"
+  - "KubeVirt"
+linkedin: "https://www.linkedin.com/in/justhumanz"
+talks:
+  - title: "KubeVirt + KubeOVN: The Next Gen Of VM Orchestration?"
+    event: "Kubernetes Cloud Native Online Meetup March 2024"
+    date: "2024-03-28"
+    description: "Explore the potential of KubeVirt and KubeOVN in enhancing VM orchestration within Kubernetes environments."

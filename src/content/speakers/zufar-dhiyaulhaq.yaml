@@ -1,0 +1,23 @@
+name: "Zufar Dhiyaulhaq"
+title: "Engineering Manager"
+company: "Goto Financial"
+bio: |
+  8 years experience as a Infrastructure Engineer, working on building &amp; maintaining data center, OpenStack, Kubernetes, AWS, AliCloud, GCP, Service Mesh, API gateway, Chaos Engineering, etc
+avatar: "/people/zufar-dhiyaulhaq.webp"
+topic:
+  - "Kubernetes"
+  - "Kubecost"
+  - "Istio"
+linkedin: "https://www.linkedin.com/in/zufardhiyaulhaq"
+twitter: "zufardhiyaulhaq"
+website: "https://zufardhiyaulhaq.com"
+talks:
+  - title: "Optimizing Kubernetes Network Cost With Kubecost & Istio"
+    event: "Kubernetes Cloud Native Online Meetup July 2023 x VIDA Digital Identity"
+    date: "2024-07-04"
+    description: "Learn how to effectively monitor and manage Kubernetes network costs using Kubecost integrated with Istio service mesh."
+  - title: "Istio Multicluster for Zero Downtime Migration"
+    event: "Kubernetes Cloud Native Online Meetup September 2021"
+    date: "2021-09-02"
+    description: "Discover how to leverage Istio's multicluster capabilities to achieve zero downtime during Kubernetes cluster migrations."
+    videoUrl: "https://www.youtube.com/watch?v=AfGIu1v1XHo"

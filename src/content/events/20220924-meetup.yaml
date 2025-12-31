@@ -1,0 +1,11 @@
+title: "Kubernetes Cloud Native Offline Meetup Yogyakarta September 2022"
+date: "2022-09-24"
+time: "10:00 WIB"
+location: "Block71, Jl. Prof. Herman Yohanes No.1212, Terban, Kec. Gondokusuman, Kota Yogyakarta"
+type: "meetup" # one of: meetup, conference, webinar, workshop
+topic: "Kubernetes"
+description: |
+  Join us for an offline meetup! Connect with fellow cloud native enthusiasts,
+  learn from industry experts, and share your experiences.
+cncfEventUrl: "https://community.cncf.io/events/details/cncf-indonesia-presents-kubernetes-cloud-native-offline-meetup-yogyakarta-september-2022"
+published: true

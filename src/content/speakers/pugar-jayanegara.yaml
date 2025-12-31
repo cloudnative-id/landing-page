@@ -1,0 +1,16 @@
+name: "Pujar Jayanegara"
+title: "Senior Solution Architect"
+company: "Amazon Web Services"
+bio: |
+  10x AWS professional Solution Architect, Developer, SysOps + ML,DB,Network,Analytic Speciality
+  6x Google Cloud Certified ~ Assoc-Professional Cloud Architect. Prof Data Engineer, Prof Network Eng, Prof DevOps, ML Engineer
+avatar: "/people/pujar-jayanegara.webp"
+topic:
+  - "Kubernetes"
+  - "kOps"
+linkedin: "https://www.linkedin.com/in/pugar-j-78889816"
+talks:
+  - title: "Efficient and Cost effective way in scaling large kubernetes cluster with kOps and spot instance"
+    event: "Kubernetes Cloud Native Online Meetup July 2022"
+    date: "2022-07-28"
+    description: "Learn how to efficiently scale large Kubernetes clusters using kOps and spot instances to optimize costs and performance."

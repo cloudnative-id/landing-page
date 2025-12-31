@@ -1,0 +1,14 @@
+name: "Iqbal Farabi"
+title: "Engineering Manager"
+company: "Booking.com"
+bio: |
+  I am a teacher, Ruby programmer, site reliability engineer, and now a Site Reliability Engineering Manager at Booking.com. Apart from my daily job, I write curriculum for and teach at various talent development programs. Outside of work, I co-organized Jakarta Kubernetes meetup and create an online learning video series for aspiring tech talents at Insinyur Online.
+avatar: "/people/iqbal-farabi.webp"
+topic:
+  - "Mentoring"
+linkedin: "https://www.linkedin.com/in/iqbal-farabi-02756923/"
+talks:
+  - title: "The Importance of Mentoring Culture in Growing Tech"
+    event: "Kubernetes Cloud Native Jakarta Meetup March 2023"
+    date: "2023-03-13"
+    description: "Explore the importance of mentoring in fostering a thriving tech community and supporting the growth of aspiring professionals."

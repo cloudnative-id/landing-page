@@ -1,0 +1,11 @@
+title: "Kubernetes Cloud Native Indonesia Offline Meetup February 2023 X BukaMeetup"
+date: "2023-02-16"
+time: "18:00 WIB"
+location: "Bukalapak Headquarter | Metropolitan Tower. Jl. R.A.Kartini No.10, RT.10/RW.4 West Cilandak, Cilandak, South Jakarta"
+type: "meetup" # one of: meetup, conference, webinar, workshop
+topic: "Kubernetes, Vault, ArgoCD"
+description: |
+  Join us for an offline meetup! Connect with fellow cloud native enthusiasts,
+  learn from industry experts, and share your experiences.
+cncfEventUrl: "https://community.cncf.io/events/details/cncf-indonesia-presents-kubernetes-cloud-native-indonesia-offline-meetup-february-2023-x-bukameetup/"
+published: true

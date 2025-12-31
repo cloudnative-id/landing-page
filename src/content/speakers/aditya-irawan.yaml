@@ -1,0 +1,12 @@
+name: "Aditya Irawan"
+title: "Lead Product Architect"
+company: "Arupa"
+bio: "Lead Product Architect @ Arupa"
+avatar: "/people/aditya-irawan.webp"
+topic:
+  - "Minio"
+talks:
+  - title: "Intro to MinIO on Kubernetes: Arsitektur & Kelebihannya"
+    event: "Kubernetes Cloud Native Offline Meetup August 2025"
+    date: "2025-08-21"
+    description: "Discover the architecture and advantages of deploying MinIO on Kubernetes for scalable and efficient data storage solutions."

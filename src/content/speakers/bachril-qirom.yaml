@@ -1,0 +1,17 @@
+name: "Bachril Qirom"
+title: "System Delivery Engineer"
+company: "Presight"
+bio: |
+  Interested in DevOps,Networking, Software Defined Networking, and Cloud Computing.
+avatar: "/people/bachril-qirom.webp"
+topic:
+  - "Thanos"
+  - "Observability"
+  - "Prometheus"
+linkedin: "https://www.linkedin.com/in/bachril-qirom"
+talks:
+  - title: "High Available and Unlimited Retention Prometheus using Thanos"
+    event: "Kubernetes Cloud Native Online Meetup September 2021"
+    date: "2021-09-02"
+    description: "Discover how to leverage Thanos for high availability and unlimited retention in Prometheus monitoring."
+    videoUrl: "https://www.youtube.com/watch?v=AfGIu1v1XHo"

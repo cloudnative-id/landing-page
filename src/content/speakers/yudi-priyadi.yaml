@@ -1,0 +1,14 @@
+name: "Yudi Priyadi"
+title: "Senior System Engineer"
+company: "Nutanix"
+bio: |
+  Experienced Technical Specialist with a proven track record in the information technology and services industry, specializing in Cloud Computing and Enterprise Architecture. Known for delivering robust technical support and solutions. I leverage a deep understanding of IT infrastructure and architecture to drive performance and efficiency in complex environments. Passionate about innovation and optimizing processes to support organizational growth and balance agility and security.
+avatar: "/people/yudi-priyadi.webp"
+topic:
+  - "CI/CD"
+linkedin: "https://www.linkedin.com/in/yudi-priyadi-3aa7a829/"
+talks:
+  - title: "CI/CD with Nutanix Calm, Jenkins, and Carbon"
+    event: "Kubernetes Cloud Native Online Meetup May 2022"
+    date: "2022-05-25"
+    description: "Explore how to implement CI/CD pipelines using Nutanix Calm, Jenkins, and Carbon to streamline application deployment and management."

@@ -1,0 +1,16 @@
+name: "Bobby Limira"
+title: "Solutions Engineer"
+company: "F5"
+bio: |
+  Over 13 years of experience as Systems Engineer focusing on network, security, and application delivery / traffic management / security.
+  Certifications: CKA, AWS ANS, F5 CSE SEC
+avatar: "/people/bobby-limira.webp"
+topic:
+  - "Kubernetes"
+  - "Nginx"
+linkedin: "https://www.linkedin.com/in/bobbylimitra/"
+talks:
+  - title: "Building Flexible Modern Apps Infrastructure within Kubernetes using NGINX"
+    event: "Kubernetes Cloud Native Indonesia Meetup x NGINX - F5 & Microsoft May 2023"
+    date: "2023-05-25"
+    description: "Learn how to build flexible modern application infrastructure within Kubernetes using NGINX, enhancing scalability and performance."

@@ -1,0 +1,14 @@
+name: "Teddy Aryono"
+title: "Specialist Solutions Architect"
+company: "Amazon Web Services"
+bio: "Specialist Solutions Architect @ Amazon Web Services"
+avatar: "/people/teddy-aryono.webp"
+topic:
+  - "Development"
+linkedin: "https://www.linkedin.com/in/teddyaryono/"
+talks:
+  - title: "Well Architected Framework for Modern Application"
+    event: "Kubernetes Cloud Native Online Meetup July 2021"
+    date: "2021-07-29"
+    description: "Learn how to design and build modern applications using the Well-Architected Framework to ensure reliability, security, and performance."
+    videoUrl: "https://www.youtube.com/watch?v=sm19yELi-ck"

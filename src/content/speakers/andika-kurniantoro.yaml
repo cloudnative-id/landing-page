@@ -1,0 +1,17 @@
+name: "Andika Kurniantoro"
+title: "Cloud Platform Engineer"
+company: "Apple"
+bio: |
+  With over 15 years in IT and a decade-long focus on public cloud engineering, I am a seasoned technology professional currently driving critical enterprise system initiatives for Apple across the APAC region. 
+  My expertise spans cloud architecture, containerization, distributed systems, and event-driven architectures. I am also passionate about fostering talent development within the industry.
+avatar: "/people/andika-kurniantoro.webp"
+topic:
+  - "Kubernetes"
+  - "AKS"
+linkedin: "https://www.linkedin.com/in/andikakurniantoro/"
+talks:
+  - title: "Simplify helm charts deployment with Helm file"
+    event: "Kubernetes Cloud Native Online Meetup December 2021"
+    date: "2021-12-16"
+    description: "Discover how Helmfile can streamline the management and deployment of Helm charts in Kubernetes environments, enhancing efficiency and consistency."
+    videoUrl: "https://www.youtube.com/watch?v=VAbJwevd2n8"

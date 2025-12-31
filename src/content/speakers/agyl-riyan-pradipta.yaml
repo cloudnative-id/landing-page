@@ -1,0 +1,16 @@
+name: "Agyl Riyan Pradipta"
+title: "Infrastructure Transformation Senior Analyst"
+company: "Accenture"
+bio: |
+  Experienced Cloud and DevOps Engineer with 3+ years of professional experience in cloud infrastructure, containerization, and application performance monitoring. Proficient in various cloud platforms including AWS, GCP, and Linode. 
+avatar: "/people/agyl-riyan-pradipta.webp"
+topic:
+  - "Kubernetes"
+  - "FluxCD"
+  - "GitOps"
+linkedin: "https://www.linkedin.com/in/agylpradipta"
+talks:
+  - title: "Effortless Kubernetes Management: Gitops Automation With FluxCD on linode LKE"
+    event: "Kubernetes Cloud Native Offline Meetup October 2024 with DTc & AKAMAI"
+    date: "2024-10-03"
+    description: "Explore how to streamline Kubernetes management using GitOps automation with FluxCD on Linode LKE, enhancing deployment efficiency and operational consistency."

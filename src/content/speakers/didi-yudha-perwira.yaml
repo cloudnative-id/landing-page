@@ -1,0 +1,15 @@
+name: "Didi Yudha Perwira"
+title: "Senior Software Engineer"
+company: "Goto Financial"
+bio: |
+  Experienced Engineer with a demonstrated history of working in the internet industry. Skilled in Go and Java. Strong engineering professional with a S1 Informatics Engineering focused in Computer Science from Telkom University.
+avatar: "/people/didi-yudha-perwira.webp"
+topic:
+  - "Kubernetes"
+  - "Istio"
+linkedin: "https://www.linkedin.com/in/didi-yudha-perwira-269218a5"
+talks:
+  - title: "Understanding Istio Ambient Mesh, the Concept and the Implementation"
+    event: "Kubernetes Cloud Native Indonesia Meetup x NGINX - F5 & Microsoft May 2023"
+    date: "2023-05-25"
+    description: "Learn about the Istio Ambient Mesh architecture and its implementation details for enhancing service-to-service communication in Kubernetes."

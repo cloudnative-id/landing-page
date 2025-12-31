@@ -1,0 +1,14 @@
+name: "Akbar Ibnu"
+title: "Senior Site Reliability Engineer"
+company: "Flip"
+bio: "Senior Site Reliability Engineer @ Flip"
+avatar: "/people/akbar-ibnu.webp"
+topic:
+  - "Kubernetes"
+linkedin: ""
+talks:
+  - title: "KPT for Kubernetes"
+    event: "Kubernetes Cloud Native Online Meetup Februari 2022"
+    date: "2022-02-24"
+    description: "An introduction to KPT (Kubernetes Packaging Tool) and how it can be used to manage and deploy Kubernetes configurations effectively."
+    videoUrl: "https://www.youtube.com/watch?v=WJAAD1jX5hY"

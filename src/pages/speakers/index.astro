@@ -129,7 +129,7 @@ const allTopic = [...new Set(sortedSpeakers.flatMap(s => s.data.topic))].sort();
               data-company={(speaker.data.company || '').toLowerCase()}
             >
               <!-- Avatar -->
-              <div class="relative h-64 bg-gradient-to-br from-blue-500 to-blue-700 overflow-hidden">
+              <div class="relative h-64 bg-gradient-to-br from-gray-500 to-gray-700 overflow-hidden">
                 {speaker.data.avatar ? (
                   <img 
                     src={speaker.data.avatar} 

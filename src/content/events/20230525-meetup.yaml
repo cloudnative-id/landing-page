@@ -1,0 +1,12 @@
+title: "Kubernetes Cloud Native Indonesia Meetup x NGINX - F5 & Microsoft May 2023"
+date: "2023-05-25"
+time: "18:00 WIB"
+location: "Microsoft MPR Room, Jakarta Stock Exchange Building Tower II, Floor 18 SCBD, Jalan Jendral sudirman kav 52-53, Kota Jakarta Selatan."
+type: "meetup" # one of: meetup, conference, webinar, workshop
+topic: "Nginx, AKS, Istio"
+banner: "/events/20230525-meetup.webp"
+description: |
+  Join us for an offline meetup! Connect with fellow cloud native enthusiasts,
+  learn from industry experts, and share your experiences.
+cncfEventUrl: "https://community.cncf.io/events/details/cncf-indonesia-presents-kubernetes-cloud-native-indonesia-meetup-x-nginx-f5-microsoft-may-2023/"
+published: true

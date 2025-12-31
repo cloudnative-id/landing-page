@@ -1,0 +1,14 @@
+name: "Husni Alhamdani"
+title: "Senior Site Reliability Engineer"
+company: "Amartha"
+bio: |
+  CNCF Ambassador & OSS enthusiast, work as SRE/DevOps Engineer, specializing in Kubernetes & Cloud-Native Technology.
+avatar: "/people/husni-alhamdani.webp"
+topic:
+  - "Kubernetes"
+linkedin: "https://www.linkedin.com/in/husni-alhamdani/"
+talks:
+  - title: "You (probably) Need Liveness, Readiness, and Startup probes"
+    event: "Kubernetes Cloud Native Online Meetup July 2022"
+    date: "2022-07-28"
+    description: "Understand the importance of implementing liveness, readiness, and startup probes in your Kubernetes applications to enhance reliability and performance."
