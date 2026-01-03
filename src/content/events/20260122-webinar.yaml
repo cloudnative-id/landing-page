@@ -5,6 +5,6 @@ location: "Online Event (Virtual)"
 type: "webinar" # one of: meetup, conference, webinar, workshop
 topic: "Scaling"
 description: |
-  Join us for an exciting webinar as we spotlight the latest features and enhancements in Kubernetes v1.35 Timbernetes. 
+  Join us for an online meetup! Connect with fellow cloud native enthusiasts. Learn from industry experts, and share your experiences.
 cncfEventUrl: "https://community.cncf.io/events/details/cncf-kubernetes-indonesia-presents-kubernetes-cloud-native-online-meetup-january-2026"
 published: true
