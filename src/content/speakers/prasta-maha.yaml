@@ -14,7 +14,7 @@ topic:
   - "Development"
 linkedin: "https://www.linkedin.com/in/prastamaha"
 twitter: "prastamh"
-website: "https://prastamaha.com"
+website: "https://prastamaha.dev"
 talks:
   - title: "Effortless Microservice Development & Debugging on Kubernetes With Mirrord"
     event: "Kubernetes Community Days Indonesia 2024"
