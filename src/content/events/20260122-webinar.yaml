@@ -3,7 +3,8 @@ date: "2026-01-22"
 time: "19:00 WIB"
 location: "Online Event (Virtual)"
 type: "webinar" # one of: meetup, conference, webinar, workshop
-topic: "Scaling"
+topic: "Kubernetes Scaling, Common Issue"
+banner: "/events/20260122-webinar.webp"
 description: |
   Join us for an online meetup! Connect with fellow cloud native enthusiasts. Learn from industry experts, and share your experiences.
 cncfEventUrl: "https://community.cncf.io/events/details/cncf-kubernetes-indonesia-presents-kubernetes-cloud-native-online-meetup-january-2026"
