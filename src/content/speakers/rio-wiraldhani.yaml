@@ -6,10 +6,17 @@ bio: |
   When I’m feeling awake enough without even needing coffee and discover something cool, I write about it on my Medium.
 avatar: "/people/rio-wiraldhani.webp"
 topic:
+  - "Kubernetes"
   - "Keycloak"
   - "Authentication"
 linkedin: "https://www.linkedin.com/in/riowiraldhani"
 talks:
+  - title: "Kubernetes, As It Turns Out: Understanding Common Issues in EKS & GKE"
+    event: "Kubernetes Cloud Native Online Meetup January 2026"
+    date: "2026-01-22"
+    description: "Dive into the common challenges faced when using managed Kubernetes services like EKS and GKE, and learn practical solutions to overcome them."
+    slidesUrl: "https://www.slideshare.net/slideshow/kubernetes-cloud-native-indonesia-meetup-january-2026/285457170"
+    videoUrl: "https://www.youtube.com/watch?v=RVvLuwtxg0k"
   - title: "Auth That Works: Building Seamless Login Experiences for Internal Tools with Keycloak"
     event: "Kubernetes Cloud Native Offline Meetup August 2025" 
     date: "2025-05-27"
