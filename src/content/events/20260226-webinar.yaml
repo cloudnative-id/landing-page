@@ -1,0 +1,11 @@
+title: "Kubernetes Cloud Native Online Meetup February 2026"
+date: "2026-02-26"
+time: "19:00 WIB"
+location: "Online Event (Virtual)"
+type: "webinar" # one of: meetup, conference, webinar, workshop
+topic: "Kubernetes, Keda"
+banner: "/events/20260226-webinar.webp"
+description: |
+  Join us for an online meetup! Connect with fellow cloud native enthusiasts. Learn from industry experts, and share your experiences.
+cncfEventUrl: "https://community.cncf.io/events/details/cncf-kubernetes-indonesia-presents-kubernetes-cloud-native-online-meetup-february-2026"
+published: true
