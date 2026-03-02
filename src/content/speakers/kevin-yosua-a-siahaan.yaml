@@ -1,0 +1,17 @@
+name: "Kevin Yosua A Siahaan"
+title: "Devops Engineer"
+company: "Krom Bank Indonesia"
+bio: |
+  Technology enthusiast working in DevOps and cloud engineering, passionate about continuous improvement, best practices, and exploring new innovations in the IT landscape.
+avatar: "/people/kevin-yosua-a-siahaan.webp"
+topic:
+  - "Kubernetes"
+  - "Keda"
+linkedin: "https://www.linkedin.com/in/kevinyousuasiahaan/"
+talks:
+  - title: "Scaling On Demand : Implementing KEDA Based On AWS SQS"
+    event: "Kubernetes Cloud Native Online Meetup February 2026"
+    date: "2026-02-26"
+    description: "Discover how keda can help you to scale workload based on events"
+    slidesUrl: "https://www.slideshare.net/slideshow/kubernetes-cloud-native-indonesia-meetup-february-2026/286253876"
+    videoUrl: "https://www.youtube.com/watch?v=ZtFzzeBRHiQ"
