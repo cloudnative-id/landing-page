@@ -1,0 +1,18 @@
+name: "Deni Satria"
+title: "Devops Engineer"
+company: "Teknologi Operator Prima"
+bio: |
+  A motivated fresh graduate with a solid foundation in DevOps, including CI/CD, Linux server management,
+  and automation using Bash. Familiar with Docker, kubernetes, Jenkins, Prometheus, and Grafana. Eager to apply
+  knowledge in real-world projects and committed to continuous learning and improving system reliability.
+avatar: "/people/deni-satria.webp"
+topic:
+  - "Kubernetes"
+linkedin: "https://www.linkedin.com/in/deni-satria-470640306/"
+talks:
+  - title: "Manage Kubernetes Cluster With Independent Robot Housekeeping Using Job"
+    event: "Kubernetes Cloud Native Online Meetup February 2026"
+    date: "2026-02-26"
+    description: "Learn how to automate clean up your kubernetes cluster"
+    slidesUrl: "https://www.slideshare.net/slideshow/kubernetes-cloud-native-indonesia-meetup-february-2026/286253876"
+    videoUrl: "https://www.youtube.com/watch?v=ZtFzzeBRHiQ"
