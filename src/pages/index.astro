@@ -32,8 +32,41 @@ const sortedCommunity = community.sort((a, b) => a.data.order - b.data.order);
   description="Join Indonesia's largest Kubernetes and Cloud Native community. Learn, share, and grow with fellow cloud native enthusiasts through meetups, conferences, and workshops."
   type="website"
 >
+  <!-- News Banner -->
+  <div id="news-banner" class="relative text-white overflow-hidden" style="background-image: url('/kcd-hero.webp'); background-size: cover; background-position: top;">
+    <div class="absolute inset-0 bg-blue-900/70"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between gap-4">
+      <div class="flex-1 flex items-center justify-center gap-3 text-sm sm:text-base">
+        <span class="hidden sm:inline-flex items-center gap-1 bg-white/20 rounded-full px-3 py-0.5 text-xs font-semibold uppercase tracking-wide">
+          Announcement
+        </span>
+        <p class="font-medium">
+          Kubernetes Community Days Indonesia 2026 is coming!
+          <a
+            href="https://kcd.cloudnative.id"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="ml-2 underline underline-offset-2 font-bold hover:text-blue-200 transition-colors"
+          >
+            Learn more &rarr;
+          </a>
+        </p>
+      </div>
+      <button
+        id="close-news-banner"
+        type="button"
+        aria-label="Dismiss banner"
+        class="flex-shrink-0 p-1 rounded hover:bg-white/20 transition-colors"
+      >
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
   <Navbar />
-  
+
   <!-- Hero Section -->
 	<section class="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20 overflow-hidden">
 		<!-- Background Image -->
@@ -264,6 +297,17 @@ const sortedCommunity = community.sort((a, b) => a.data.order - b.data.order);
 
   <Footer />
 </Layout>
+
+<script>
+  // News banner dismiss
+  const banner = document.getElementById('news-banner');
+  const closeBtn = document.getElementById('close-news-banner');
+  if (closeBtn && banner) {
+    closeBtn.addEventListener('click', () => {
+      banner.style.display = 'none';
+    });
+  }
+</script>
 
 <script>
   // @ts-ignore - Masonry is loaded from CDN
