@@ -1,0 +1,12 @@
+title: "Kubernetes Cloud Native Offline Meetup July 2026"
+date: "2026-07-21"
+time: "17:30 WIB"
+location: "AWS Office Jakarta, Lantai 16. Sinarmas MSIG Tower, Jl. Jenderal Sudirman No.Kav. 21"
+type: "meetup" # one of: meetup, conference, webinar, workshop
+topic: "aws eks, ai agentgateway"
+banner: "/events/20260721-meetup.webp"
+description: |
+  Join us for an offline meetup in Jakarta! Connect with fellow cloud native enthusiasts,
+  learn from industry experts, and share your experiences.
+cncfEventUrl: "https://ocgroups.dev/cncf/group/jzp2vbj/event/ucsjzrx"
+published: true
