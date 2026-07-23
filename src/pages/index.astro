@@ -9,17 +9,43 @@ import { getCollection } from 'astro:content';
 const events = await getCollection('events', ({ data }) => data.published !== false);
 const community = await getCollection('community');
 
-// Separate upcoming and past events based on date
-const today = new Date();
-today.setHours(0, 0, 0, 0); // Set to start of day for accurate comparison
+// Separate upcoming and past events based on date and time
+const now = new Date();
+
+function parseEventDateTime(dateStr: string, timeStr?: string): Date {
+  const [year, month, day] = dateStr.split('-').map(Number);
+  const date = new Date(year, month - 1, day);
+
+  if (!timeStr) {
+    date.setHours(23, 59, 59, 999);
+    return date;
+  }
+
+  const timeMatch = timeStr.match(/(\d{1,2}):(\d{2})/);
+  if (!timeMatch) {
+    date.setHours(23, 59, 59, 999);
+    return date;
+  }
+
+  const hours = parseInt(timeMatch[1], 10);
+  const minutes = parseInt(timeMatch[2], 10);
+
+  const tzMatch = timeStr.match(/(WIB|WITA|WIT)/i);
+  const tzOffsets: Record<string, number> = { 'WIB': 7, 'WITA': 8, 'WIT': 9 };
+  const offsetHours = tzMatch ? (tzOffsets[tzMatch[1].toUpperCase()] ?? 7) : 7;
+
+  const utcHours = hours - offsetHours;
+  const utcDate = new Date(Date.UTC(year, month - 1, day, utcHours, minutes));
+  return new Date(utcDate.getTime());
+}
 
 const upcomingEvents = events
-  .filter(event => new Date(event.data.date) >= today)
+  .filter(event => parseEventDateTime(event.data.date, event.data.time) > now)
   .sort((a, b) => new Date(a.data.date).getTime() - new Date(b.data.date).getTime());
 
 const pastEvents = events
-  .filter(event => new Date(event.data.date) < today)
-  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()); // Newest past events first
+  .filter(event => parseEventDateTime(event.data.date, event.data.time) <= now)
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 
 // Combine all events for the unified view
 const allEvents = [...upcomingEvents, ...pastEvents];
